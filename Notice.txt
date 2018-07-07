@@ -1,0 +1,58 @@
+/**************************/
+/** Notice d'utilisation **/
+/**************************/
+
+
+
+/****************/
+/** Pré-requis **/
+/****************/
+- Serveur local Appache type XAMPP, MAMP, WAMPServeur...
+(pour ma part, j'utilise XAMPP)
+- fichier outil_generateur_fichier_poemes_dalp.zip
+
+/***********************************/
+/** Installation du serveur local **/
+/***********************************/
+- Télécharger XAMPP depuis ce lien : http://www.01net.com/telecharger/windows/Internet/serveur_ftp/fiches/31487.html
+- Exécuter le fichier pour l'installation ;)
+- Suivre les indications d'installation (c'est le serveur appache qui nous intéresse)
+- Redémarrage si conseillé
+- Lancer xampp
+- Appuyer sur le bouton "Start" correspondant à Appache
+
+/*********************************************************/
+/** Installation de l'application dans le serveur local **/
+/*********************************************************/
+- Dézipper le fichier outil_generateur_fichier_poemes_dalp.zip
+- Ouvrir l'explorateur de fichier 
+- Disque local C:
+- Aller dans le dossier Xampp/htdocs
+- Copier le fichier outil_generateur_fichier_poemes_dalp dans ce répertoire (htdocs)
+
+
+
+
+/**************************/
+/** Ouverture de l'outil **/
+/**************************/
+- Ouvrir la fenêtre d'un navigateur type Chrome...
+- saisir l'url : http://localhost/outil_poemes_test_formulaire/index.php
+- Affichage de l'interface de l'outil
+
+
+/****************************/
+/** Utilisation de l'outil **/
+/****************************/
+- Saisir le poème ligne par ligne
+- Ajouter autant de strophes que nécessaire
+- la saisie finie, cliquer sur le bouton "générer fichiers"
+- Pour chaque poeme, 2 fichiers sont créés : un index.html dans le dossier "index" et un fichier poeme.js dans le dossier "poemes". 
+/**Les poemes sont identifiés par le nom de la saison et un numéro. Vigilence si tu oublis de modifier le numéro et que tu génère 2 fois Frétillement n°1. Les deux poemes seront mis bout à bout dans le même fichier. Je n'ai pas encore mis en place de contrôle ou d'alerte pour éviter ce genre de cas.**/
+
+- Lorsque tu as fini de générer les poèmes désirés, transmission sur le serveur à distance.
+-> Les fichiers poemes.js sont à copier dans le dossier "poemes" existant de l'application en ligne
+-> Les fichiers index.html sont à copier dans le dossier avec les autres index
+-> Pour tester chaque poemes : https://dalp-poemes.p2p.legal/poemes_animes/MonIndexGenereAvecOutil.html
+
+

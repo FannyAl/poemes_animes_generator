@@ -1,0 +1,133 @@
+/***************************************/
+/************ Style fenêtre ************/
+/***************************************/
+body
+{
+	overflow-y: scroll;
+	font-family: 'Nanum Gothic', Geneva, sans-serif;
+}
+
+#ghost_form
+{
+	/*visibility: hidden;*/
+}
+
+h3
+{
+	border-bottom: 1px solid gray;
+    width: 600px;
+}
+
+#backgroundPoem
+{
+	position: absolute;
+	width: 97%;
+	height: 100%;
+	
+	background-color: #EDEBE6;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	
+	margin: auto 1%;
+}
+
+#bg_bord_haut
+{
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	
+}
+
+#bg_bord_bas
+{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+
+
+/***************************************/
+/************ Contenu outil ************/
+/***************************************/
+#content_page
+{
+	width: 100%;
+    height: 100%;
+	margin: 0 auto;
+}
+
+#en_tete
+{
+	width: 80px;
+	height: auto;
+	
+	position: absolute;
+	margin-left: 46%;
+	top: 10px;
+}
+
+
+/***************************************/
+/************** Formulaire *************/
+/***************************************/
+form
+{
+    position: absolute;
+    top: 120px;
+	display: block;
+    margin: 0px 20px;
+}
+
+.div_form
+{
+	padding: 10px 0px;
+}
+
+.div_form input, .div_form select, #ajout_strophe, #valider_form
+{
+	position: absolute;
+	left: 150px;
+}
+
+.div_form .strophe
+{
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.ligne_strophe
+{
+	display: block;
+    padding-bottom: 10px;
+}
+
+.ligne_strophe span
+{
+	font-size: 10px;
+}
+
+#ajout_strophe, #valider_form
+{
+	display: block;
+	margin: 20px 0px;
+	padding: 5px;
+	width: 150px;
+}
+
+#valider_form
+{
+	bottom: -150px;
+}
+
+.ligne_strophe input, #titre_poeme
+{
+	width: 350px;
+}
+
+#choix_numero input, select
+{
+	width: 150px;
+}
